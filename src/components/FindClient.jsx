@@ -31,14 +31,14 @@ function FindClient(props) {
         <ul>
           <li style={{marginLeft: "-10px",color: "#5333ed", fontWeight: "bold" }}>
             <p>Name:</p>
-            <p>Email:</p>
             <p>Number:</p>
+            <p>Email:</p>
           </li>
           {clients.map((client) => (
             <li key={client.name}>
               <p><button onClick={() => props.selectClient(client.id)}>{client.name}</button></p>
-              <p>{client.email}</p>
               <p>{client.telephone}</p>
+              <p>{client.email}</p>
             </li>
           ))}
         </ul>
