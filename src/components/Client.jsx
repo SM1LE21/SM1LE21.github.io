@@ -52,7 +52,7 @@ const Client = ({ clientId = '', buttonPressed, resetButton} = {}) => {
       <h3>Notes</h3>
       {notes.length > 0 ? (
         <ul>
-          {notes.map((note) => (
+          {[...notes].reverse().map((note) => (
             <li key={note.id}>
               <div className="title">
                 {note.title}
@@ -63,7 +63,7 @@ const Client = ({ clientId = '', buttonPressed, resetButton} = {}) => {
               <div className="divider"></div>
               <div className='body'>{note.body}</div>
             </li>
-          
+
           ))}
         </ul>
       ) : (
