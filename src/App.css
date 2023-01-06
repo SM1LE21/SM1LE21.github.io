@@ -38,7 +38,7 @@ button:hover {
 textarea {
   display: block;
   border: 1px solid #ddd;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   width: 100%;
   height: calc(50vh - 130px);
   padding: 10px;
@@ -51,7 +51,7 @@ textarea {
 /* Background */
 .header {
   width: 100%;
-  padding: 60px;
+  padding: 20px;
   text-align: center;
   background: #5333ed;
   color: #6e7076;
