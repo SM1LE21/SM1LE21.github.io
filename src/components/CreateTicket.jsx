@@ -45,7 +45,7 @@ const CreateTicket = ({ clientId = '' , handleButtonPress} = {}) => {
         return (
           <div>
             {client ? (
-              <h2 className='title_color'>Create a new note for {client.name}</h2>
+              <h2 className='title_color'>Create a new note for {client.name} </h2>
             ) : (
               <h2 className='title_color'>Please select a client to create a note for</h2>
             )}

@@ -15,7 +15,7 @@ function FindClient(props) {
     let allClients = JSON.parse(localStorage.getItem('clients')) || [];
     // search for clients by name
     let foundClients = allClients.filter((client) => client.name.toLowerCase().includes(name.toLowerCase()));
-    // set found clients in state /
+    // set found clients in state
     setClients(foundClients);
   };
 
