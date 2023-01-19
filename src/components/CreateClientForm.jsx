@@ -57,8 +57,10 @@ function CreateClientForm() {
         <div>
           <label htmlFor="name">Name:</label>
           <input
-            type="text"
-            id="name"
+            style={{maxWidth: '300px', marginLeft: '-5px'}}
+            className='search_input'
+            type='text'
+            id='name'
             value={formData.name}
             onChange={(event) => setFormData({ ...formData, id: uuid(), name: event.target.value })}
           />
@@ -67,6 +69,8 @@ function CreateClientForm() {
         <div>
           <label htmlFor="telephone">Telephone:</label>
           <input
+            style={{maxWidth: '300px', marginLeft: '-5px'}}
+            className='search_input'
             type="text"
             id="telephone"
             value={formData.telephone}
@@ -77,6 +81,8 @@ function CreateClientForm() {
         <div>
           <label htmlFor="email">Email:</label>
           <input
+            style={{maxWidth: '300px', marginLeft: '-5px'}}
+            className='search_input'
             type="email"
             id="email"
             value={formData.email}
@@ -87,7 +93,7 @@ function CreateClientForm() {
 
       <br />
       {/* bind the disabled prop to the formIsValid value */}
-      <button style={{paddingBottom: "10px"}} type="submit" disabled={!formIsValid}>
+      <button className='button-17' style={{marginBottom: "15px"}} type="submit" disabled={!formIsValid}>
         Create Client
       </button>
     </form>

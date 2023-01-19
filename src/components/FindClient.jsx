@@ -22,15 +22,14 @@ function FindClient(props) {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Name:
-        <input style={{marginLeft:"15px", color:"black", } } type="text" value={name} onChange={handleChange} placeholder="Search by Name"/>
-        <button style={{marginLeft:"15px"}} type="submit">Search</button>
+        <div><input className='search_input' type="text" value={name} onChange={handleChange} placeholder="Search by Name"/></div>
+        <button className='button-17' style={{marginLeft:"5px"}} type="submit">&#128269;</button>
       </label>
       
 
       {clients.length > 0 ? (
         <ul>
-          <li style={{marginLeft: "-10px",color: "#5333ed", fontWeight: "bold" }}>
+          <li className='title_color' style={{marginLeft: "-10px", fontWeight: "bold" }}>
             <p>Name:</p>
             <p>Number:</p>
             <p>Email:</p>

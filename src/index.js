@@ -11,4 +11,3 @@ root.render(
 );
 
 //HOW to update on github.io : npm run deploy    then    git add .   then   git commit -m "updated"  then git push 
-

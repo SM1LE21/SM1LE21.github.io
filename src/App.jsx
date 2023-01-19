@@ -50,14 +50,14 @@ function App() {
         <div className="findClient" >
           <div className="findClientText" >
             { showFindClientForm ? <FindClient selectClient={selectClient} /> : null }
-            <button onClick={handleToggleFindClientForm}>
+            <button className="button-17" style={{marginBottom: '10px'}} onClick={handleToggleFindClientForm}>
               { showFindClientForm ? 'Cancel' : 'Find Client' }
             </button>
           </div>
         </div>
         <div className="createClientForm">
           { showCreateClientForm ? <CreateClientForm /> : null }
-          <button onClick={handleToggleCreateClientForm}>
+          <button className="button-17" style={{marginBottom: '10px'}} onClick={handleToggleCreateClientForm}>
             { showCreateClientForm ? 'Cancel' : 'Add client' }
           </button>
         </div>

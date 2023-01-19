@@ -45,14 +45,16 @@ const CreateTicket = ({ clientId = '' , handleButtonPress} = {}) => {
         return (
           <div>
             {client ? (
-              <h2 style={{color: "#5333ed"}}>Create a new note for {client.name}</h2>
+              <h2 className='title_color'>Create a new note for {client.name}</h2>
             ) : (
-              <h2 style={{color: "#5333ed"}}>Please select a client to create a note for</h2>
+              <h2 className='title_color'>Please select a client to create a note for</h2>
             )}
             <form>
               <div style={{paddingBottom: "10px"}}>
                 <label htmlFor="title" style={{marginRight:"20px"}}>Title:</label>
                 <input
+                  style={{maxWidth: '300px', marginLeft: '-5px'}}
+                  className='search_input'
                   type="text"
                   id="title"
                   value={title}
@@ -63,12 +65,13 @@ const CreateTicket = ({ clientId = '' , handleButtonPress} = {}) => {
               <br />
               <label htmlFor="body">Body:</label>
               <textarea
+              style={{borderRadius: '12px'}}
                 id="body"
                 value={body}
                 onChange={(e) => setBody(e.target.value)}
               />
               <br />
-              <button type="button" style={{paddingBottom: "10px"}} onClick={() => {createNote(); handleButtonPress();}} disabled={!client}>
+              <button className='button-17' type="button" style={{marginBottom: "10px"}} onClick={() => {createNote(); handleButtonPress();}} disabled={!client}>
                 Create Note
               </button>
             </form>

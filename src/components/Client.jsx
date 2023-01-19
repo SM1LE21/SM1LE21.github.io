@@ -41,7 +41,7 @@ const Client = ({ clientId = '', buttonPressed, resetButton} = {}) => {
   }
   return (
     <div>
-      <h2 style={{color: "#5333ed"}}>Client: {client.name}</h2>
+      <h2 className='title_color'>Client: {client.name}</h2>
       <div className='clientContainer'>
         <p>Telephone:</p>
         <p>{client.telephone}</p>
