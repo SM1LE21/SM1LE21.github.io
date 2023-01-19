@@ -33,7 +33,7 @@ const CreateTicket = ({ clientId = '' , handleButtonPress} = {}) => {
       // add the new note to the array of notes
       notes.push(newNote);
 
-      // save the updated array of notes to local storage
+      // save the updated array of notes to local storage    
       localStorage.setItem(clientId, JSON.stringify(notes));
 
       // reset the form fields
