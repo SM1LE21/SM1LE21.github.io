@@ -25,8 +25,9 @@ const Client = ({ clientId = '', buttonPressed, resetButton} = {}) => {
     resetButton();
   }, [buttonPressed]);
 
+  //return this if no client is chose:
   if (!client) {
-    return <p>Loading...</p>;
+    return <p>Select a client.</p>;
   }
   
   function displayDate(date){
