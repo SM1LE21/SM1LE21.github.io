@@ -10,10 +10,6 @@ With this app, you can:
 * Add a new note for a client
 * View all the note for a specific client
 
-## Test the App
-
-Click on this link to test the App: [https://sm1le21.github.io/](https://sm1le21.github.io/)
-
 
 ## Setup
 
