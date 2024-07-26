@@ -2,6 +2,8 @@
 
 Welcome to my portfolio website repository! This project showcases my work, skills, and professional journey in a visually engaging and user-friendly manner. Built with React and TypeScript, featuring GSAP animations, and hosted on GitHub Pages, this site serves as a dynamic and interactive representation of my professional life.
 
+Check out the [Website](https://sm1le21.github.io/).
+
 ## Project Overview
 The website is designed to provide an overview of my experience, projects, and accomplishments. It features several sections, including About Me, Projects. All displayed information is managed through a central data.json file, making it easy to update and maintain.
 
