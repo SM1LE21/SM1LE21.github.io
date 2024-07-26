@@ -1,3 +1,51 @@
+# Portfolio Website
+
+Welcome to my portfolio website repository! This project showcases my work, skills, and professional journey in a visually engaging and user-friendly manner. Built with React and TypeScript, featuring GSAP animations, and hosted on GitHub Pages, this site serves as a dynamic and interactive representation of my professional life.
+
+## Project Overview
+The website is designed to provide an overview of my experience, projects, and accomplishments. It features several sections, including About Me, Projects. All displayed information is managed through a central data.json file, making it easy to update and maintain.
+
+
+### Key Features
+- About Me: Detailed information about my education, skills, and interests.
+- Projects: A comprehensive list of my projects with descriptions, technologies used, and links to live demos and source code.
+
+### Technologies Used
+- Frontend: React, TypeScript, GSAP for animations, CSS for styling
+- Backend: For now the data is managed entirely through data.json for dynamic content updates
+- Deployment: GitHub Pages
+
+### Design and Data Management
+The entire website's content is driven by a single data.json file. This design choice allows for easy modifications and the potential for the website to be reused by others with minimal changes. Here is an excerpt of the data.json file structure:
+
+```json
+{
+    "name": "Tun Keltesch",
+    "title": "Software Engineer",
+    "description": "I build robust, user-friendly, and visually appealing web solutions, with a passion for continuous technical innovation.",
+    "about": [
+       ...
+    ],
+    ...
+}
+```
+
+## Current Status and Future Plans
+The project is still in development. Some features, such as mobile navigation, are not yet perfect, and not all of my projects are displayed. I have chosen not to include projects done for clients or employers to avoid detailing work that is not my intellectual property.
+
+
+Future updates will include:
+
+- A detailed description of the website's development process
+- An AI chatbot to assist with navigation and answering questions about me
+
+## Contact
+For any feedback, ideas, questions, or inquiries, feel free to reach out to me via Email or connect with me on LinkedIn.
+
+Thank you for visiting my portfolio website repository! Your feedback and support are greatly appreciated.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
