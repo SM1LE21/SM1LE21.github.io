@@ -23,7 +23,7 @@ The entire website's content is driven by a single data.json file. This design c
 ```json
 {
     "name": "Tun Keltesch",
-    "title": "Software Engineer",
+    "title": "Junior Product Engineer | Software Engineer",
     "description": "I build robust, user-friendly, and visually appealing web solutions, with a passion for continuous technical innovation.",
     "about": [
        ...

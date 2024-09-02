@@ -37,6 +37,13 @@ const ProjectInformation: React.FC = () => {
 
   const githubIcon = data.socialLinks.find(link => link.title === 'GitHub')?.icon;
 
+  const isYouTubeUrl = (url: string) => url.includes('youtube.com') || url.includes('youtu.be');
+
+  const getYouTubeEmbedUrl = (url: string) => {
+    const videoId = url.includes('v=') ? url.split('v=')[1]?.split('&')[0] : url.split('/').pop();
+    return `https://www.youtube.com/embed/${videoId}`;
+  };
+
   return (
     <div className="project-info-container">
       <Link to="/" className="back-to-home title-link">← Back to Home</Link>
@@ -65,10 +72,24 @@ const ProjectInformation: React.FC = () => {
       )}
       {project.showMainMedia && (
         project.video ? (
-          <video autoPlay loop muted className="main-media">
-            <source src={project.video} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          isYouTubeUrl(project.video) ? (
+            <iframe
+              width="560"
+              height="315"
+              src={getYouTubeEmbedUrl(project.video)}
+              title={project.title}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              className="main-media"
+            ></iframe>
+          ) : (
+            <video autoPlay loop muted className="main-media">
+              <source src={project.video} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          )
         ) : (
           project.image && <img src={project.image} alt={project.title} className="main-media" />
         )
