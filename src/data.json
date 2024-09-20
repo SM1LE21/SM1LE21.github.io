@@ -199,7 +199,7 @@
               "For the competition, we delivered a platform called LLInvoker that integrates the Gemini API to generate A1-level exercises in both German and French. Users can request customized exercises based on their language level and topics of interest. We also included a feature where Gemini corrects and verifies users' answers, offering a more interactive learning experience. Additionally, users can generate custom exercises through a chat feature, allowing them to select exercise types and incorporate images or descriptions to create personalized learning activities. While the platform is in its alpha stage and some features from our initial plans are still under development, we believe LLInvoker demonstrates significant potential.",
               "Looking forward, we plan to collaborate with educational institutions and introduce more advanced exercises, such as those initially planned with news articles, reading exercises, and conversational practice that offers pronunciation feedback. We're also considering a rework of the frontend to make it more playful and user-friendly, likely switching to React Native due to our team's experience with similar frameworks. To get a better idea of our project, you can check out the video we submitted for the competition."
           ],
-          "link": "https://ai.google.dev/",
+          "link": "ai.google.dev/",
           "link_text": "Checkout the Gemini API Developer Competition",
           "image": "/assets/gemini.jpg",
           "video": "https://www.youtube.com/watch?v=DG44aGDvXmo",
