@@ -4,6 +4,8 @@ Welcome to my portfolio website repository! This project showcases my work, skil
 
 Check out the [Website](https://sm1le21.github.io/).
 
+**This repository is not used for development but simply to host the website on the branch `gh-pages`. To find the development project, check out: [https://github.com/SM1LE21/Portfolio](https://github.com/SM1LE21/Portfolio).**
+
 ## Project Overview
 The website is designed to provide an overview of my experience, projects, and accomplishments. It features several sections, including About Me, Projects. All displayed information is managed through a central data.json file, making it easy to update and maintain.
 
@@ -33,13 +35,13 @@ The entire website's content is driven by a single data.json file. This design c
 ```
 
 ## Current Status and Future Plans
-The project is still in development. Some features, such as mobile navigation, are not yet perfect, and not all of my projects are displayed. I have chosen not to include projects done for clients or employers to avoid detailing work that is not my intellectual property.
+The project is still in development. Some features, such as mobile navigation, are not perfect yet, and not all of my projects are displayed. I have chosen not to include projects done for clients or employers to avoid detailing work that is not my intellectual property.
 
 
 Future updates will include:
 
 - A detailed description of the website's development process
-- An AI chatbot to assist with navigation and answering questions about me
+- An AI chatbot to assist with navigation and answering questions about me (TK Chat)
 
 ## Contact
 For any feedback, ideas, questions, or inquiries, feel free to reach out to me via Email or connect with me on LinkedIn.

@@ -1,0 +1,36 @@
+/* TK CHAT INTEGRATION */
+.chat-icon {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: var(--subtitle-color);
+  color: var(--heading-color);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s; /* Ensure smooth transition for hover effect */
+}
+
+.chat-icon:hover {
+  background-color: var(--project-hover-color);
+}
+
+.chat-icon-symbol {
+  font-size: 25px;
+}
+
+/* Light Mode Adjustments */
+.light-mode .chat-icon {
+  background-color: var(--subtitle-color);
+  color: var(--project-bg-color);
+}
+
+.light-mode .chat-icon:hover {
+  background-color: var(--project-hover-color);
+}

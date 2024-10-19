@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+openai==0.28
+sqlalchemy
+pydantic
+python-dotenv
+aiofiles
+requests
